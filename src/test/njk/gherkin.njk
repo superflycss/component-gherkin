@@ -1,0 +1,29 @@
+{% macro feature( title) %}
+<h1 class="GherkinFeature"></h1>
+<h2 class="GherkinFeatureTitle">{{title}}</h2>
+
+<p class="GherkinFeatureDescription">
+{{ caller() }}
+</p>
+{% endmacro %}
+
+{% macro scenario( title) %}
+<h1 class="GherkinScenario"></h1>
+<h2 class="GherkinScenarioTitle">{{title}}</h2>
+
+<p class="GherkinScenarioDescription">
+{{ caller() }}
+</p>
+{% endmacro %}
+
+
+<h1 class="GherkinScenario"></h1>
+<h2 class="GherkinScenarioTitle">Designer Fills Out the Feature Template</h2>
+
+<p class="GherkinScenarioDescription">
+<span class="GherkinGiven"></span> that the <em class="GherkinActor">application designer</em> has filled out
+the feature template <code>feature_title</code> and <code>description</code> 
+parameters 
+<span class="GherkinThen"></span> the <em class="GherkinActor">application designer</em> will have a 
+nicely rendered feature to review.
+</p>

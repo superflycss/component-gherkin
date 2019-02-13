@@ -1,0 +1,58 @@
+@import "@superflycss/variables-fonts";
+@import "@superflycss/variables-layout";
+
+:root {
+  --GherkinScenario-background-color: inherit;
+  --GherkinScenario-text-color: inherit;
+  --GherkinScenario-background-color: inherit;
+  --GherkinScenario-text-color: #b9df2e;
+  --GherkinScenario-margin-bottom: 1rem;
+}
+
+.GherkinScenario {
+  @apply (--u-font-size-700);
+  @apply (--u-font-weight-500);
+  @apply (--u-border-bottom-style-solid);
+  color: var(--GherkinScenario-text-color);
+  background-color: var(--GherkinScenario-background-color);
+  margin-bottom: var(--GherkinScenario-margin-bottom);
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.GherkinScenario::before {
+  content: "Scenario";
+}
+
+:root {
+  --GherkinScenarioTitle-background-color: inherit;
+  --GherkinScenarioTitle-text-color: inherit;
+  --GherkinScenarioTitle-background-color: inherit;
+  --GherkinScenarioTitle-text-color: #6b89a6;
+  --GherkinScenarioTitle-margin-bottom: 1.3rem;
+}
+
+.GherkinScenarioTitle {
+  @apply (--u-font-size-400);
+  @apply (--u-font-weight-300);
+  color: var(--GherkinScenarioTitle-text-color);
+  background-color: var(--GherkinScenarioTitle-background-color);
+  margin-bottom: var(--GherkinScenarioTitle-margin-bottom);
+}
+
+:root {
+  --GherkinScenarioDescription-background-color: inherit;
+  --GherkinScenarioDescription-text-color:  #1c162f;
+  --GherkinScenarioDescription-background-color: inherit;
+  --GherkinScenarioDescription-margin-bottom: 4rem;
+}
+
+.GherkinScenarioDescription {
+  @apply (--u-font-size-400);
+  @apply (--u-font-weight-500);
+  color: var(--GherkinScenarioDescription-text-color);
+  background-color: var(--GherkinScenarioDescription-background-color);
+  margin-bottom: var(--GherkinScenarioDescription-margin-bottom);
+  letter-spacing: 0.7px;
+  line-height: 2.5rem;
+}

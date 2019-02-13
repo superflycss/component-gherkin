@@ -1,0 +1,21 @@
+@import '@superflycss/variables-fonts';
+@import '@superflycss/variables-layout';
+@import '@superflycss/utilities-format';
+
+:root {
+    --GherkinGiven-background-color: inherit;
+    --GherkinGiven-text-color: inherit;
+    --GherkinGiven-background-color: inherit;
+    --GherkinGiven-text-color: inherit;
+  }
+  
+  .GherkinGiven {
+    @apply(--u-font-weight-500);
+    color: var(--GherkinGiven-text-color);
+    background-color: var(--GherkinGiven-background-color);
+    letter-spacing: 3px;
+  }
+  
+  .GherkinGiven::before {
+    content: 'Given';
+  }
