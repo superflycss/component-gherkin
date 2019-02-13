@@ -1,0 +1,22 @@
+@import "@superflycss/variables-fonts";
+@import "@superflycss/variables-layout";
+@import "@superflycss/utilities-format";
+
+:root {
+  --GherkinWhen-background-color: inherit;
+  --GherkinWhen-text-color: inherit;
+  --GherkinWhen-background-color: inherit;
+  --GherkinWhen-text-color: inherit;
+}
+
+.GherkinWhen {
+  @apply (--u-font-weight-500);
+  color: var(--GherkinWhen-text-color);
+  background-color: var(--GherkinWhen-background-color);
+  letter-spacing: 3px;
+}
+
+.GherkinWhen::before {
+  content: "\A When";
+  white-space: pre;
+}

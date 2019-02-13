@@ -1,20 +1,19 @@
-@import '@superflycss/variables-fonts';
-@import '@superflycss/variables-layout';
-@import '@superflycss/utilities-format';
+@import "@superflycss/variables-fonts";
+@import "@superflycss/variables-layout";
+@import "@superflycss/utilities-format";
 
 :root {
-    --GherkinActor-background-color: inherit;
-    --GherkinActor-text-color: inherit;
-    --GherkinActor-background-color: inherit;
-    --GherkinActor-text-color: inherit;
-    --GherkinActor-margin-bottom: 0.5rem;  
+  --GherkinActor-background-color: inherit;
+  --GherkinActor-text-color: inherit;
+  --GherkinActor-background-color: inherit;
+  --GherkinActor-text-color: inherit;
+  --GherkinActor-margin-bottom: 0.5rem;
 }
-  
+
 .GherkinActor {
-    @apply(--u-font-weight-600);
-    color: var(--GherkinActor-text-color);
-    background-color: var(--GherkinActor-background-color);
-    margin-bottom: var(--GherkinActor-margin-bottom);
-    letter-spacing: 0.4px;
+  @apply (--u-font-weight-600);
+  color: var(--GherkinActor-text-color);
+  background-color: var(--GherkinActor-background-color);
+  margin-bottom: var(--GherkinActor-margin-bottom);
+  letter-spacing: 0.4px;
 }
-  

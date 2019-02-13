@@ -1,22 +1,22 @@
-@import '@superflycss/variables-fonts';
-@import '@superflycss/variables-layout';
-@import '@superflycss/utilities-format';
+@import "@superflycss/variables-fonts";
+@import "@superflycss/variables-layout";
+@import "@superflycss/utilities-format";
 
 :root {
-    --GherkinThen-background-color: inherit;
-    --GherkinThen-text-color: inherit;
-    --GherkinThen-background-color: inherit;
-    --GherkinThen-text-color: inherit;
-  }
-  
-  .GherkinThen {
-    @apply(--u-font-weight-500);
-    color: var(--GherkinThen-text-color);
-    background-color: var(--GherkinThen-background-color);
-    letter-spacing: 3px;
-  }
-  
-  .GherkinThen::before {
-    content: '\A Then';
-    white-space: pre;
-  }
+  --GherkinThen-background-color: inherit;
+  --GherkinThen-text-color: inherit;
+  --GherkinThen-background-color: inherit;
+  --GherkinThen-text-color: inherit;
+}
+
+.GherkinThen {
+  @apply (--u-font-weight-500);
+  color: var(--GherkinThen-text-color);
+  background-color: var(--GherkinThen-background-color);
+  letter-spacing: 3px;
+}
+
+.GherkinThen::before {
+  content: "\A Then";
+  white-space: pre;
+}

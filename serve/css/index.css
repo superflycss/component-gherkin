@@ -1278,67 +1278,67 @@ currently in effects I think ... text overflow in layout ...*/
 
 .GherkinActor {
   font-weight: 600;
-    color: inherit;
-    background-color: inherit;
-    margin-bottom: 0.5rem;
-    letter-spacing: 0.4px;
+  color: inherit;
+  background-color: inherit;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.4px;
 }
 
 .GherkinAnd {
   font-weight: 500;
-    color: inherit;
-    background-color: inherit;
-    letter-spacing: 3px;
-  }
+  color: inherit;
+  background-color: inherit;
+  letter-spacing: 3px;
+}
 
 .GherkinAnd::before {
-    content: '\A And';
-    white-space: pre;
-  }
+  content: "\A And";
+  white-space: pre;
+}
 
 .GherkinFeature {
   font-size: 2.000rem;
   font-weight: 500;
   border-bottom-style: solid;
-    color: inherit;
-    background-color: inherit;
-    margin-bottom: 0.5rem;
-    display:inline-block;
-    text-transform: uppercase;
-  }
+  color: inherit;
+  background-color: inherit;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  text-transform: uppercase;
+}
 
 .GherkinFeature::before {
-    content: 'Feature  ';
-  }
+  content: "Feature  ";
+}
 
 .GherkinFeatureTitle {
   font-size: 1.250rem;
   font-weight: 300;
-    color: #6b89a6;
-    background-color: inherit;
-    margin-bottom: 1.3rem;
+  color: #6b89a6;
+  background-color: inherit;
+  margin-bottom: 1.3rem;
 }
 
 .GherkinFeatureDescription {
   font-size: 1.250rem;
   font-weight: 500;
-    color: #1c162f;
-    background-color: inherit;
-    margin-bottom: 4rem;
-    letter-spacing: 0.7px;
-    line-height: 2.5rem;
+  color: #1c162f;
+  background-color: inherit;
+  margin-bottom: 4rem;
+  letter-spacing: 0.7px;
+  line-height: 2.5rem;
 }
 
 .GherkinGiven {
   font-weight: 500;
-    color: inherit;
-    background-color: inherit;
-    letter-spacing: 3px;
-  }
+  color: inherit;
+  background-color: inherit;
+  letter-spacing: 3px;
+}
 
 .GherkinGiven::before {
-    content: 'Given';
-  }
+  content: "Given";
+}
 
 .GherkinScenario {
   font-size: 2.000rem;
@@ -1375,15 +1375,15 @@ currently in effects I think ... text overflow in layout ...*/
 
 .GherkinThen {
   font-weight: 500;
-    color: inherit;
-    background-color: inherit;
-    letter-spacing: 3px;
-  }
+  color: inherit;
+  background-color: inherit;
+  letter-spacing: 3px;
+}
 
 .GherkinThen::before {
-    content: '\A Then';
-    white-space: pre;
-  }
+  content: "\A Then";
+  white-space: pre;
+}
 
 /* =======================================
 BROWSER COLOR NAME UTILITIES
