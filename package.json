@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-gherkin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gherkin css components and nunjucks templates.",
   "main": "index.css",
   "scripts": {
