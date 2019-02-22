@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-gherkin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gherkin css components and nunjucks templates.",
   "main": "index.css",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/superflycss/component-test.git"
+    "url": "git+https://github.com/superflycss/component-gherkin.git"
   },
   "keywords": [
     "css",
