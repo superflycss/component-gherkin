@@ -1,0 +1,42 @@
+{
+  "name": "@superflycss/component-gherkin",
+  "version": "1.0.5",
+  "description": "Gherkin css components and nunjucks templates.",
+  "main": "index.css",
+  "scripts": {
+    "update": "ncu -a && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superflycss/component-gherkin.git"
+  },
+  "keywords": [
+    "css",
+    "component",
+    "superflycss",
+    "gherkin",
+    "testing",
+    "test",
+    "bdd"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "devDependencies": {
+    "@superflycss/component-navbox": "^1.0.7",
+    "@superflycss/component-test": "^3.6.21",
+    "@superflycss/foundation": "^2.0.3",
+    "@superflycss/utilities-colors": "^3.0.9",
+    "@superflycss/utilities-format": "^1.1.1",
+    "@superflycss/utilities-icons": "^2.0.5",
+    "@superflycss/utilities-layout": "^4.0.14",
+    "@superflycss/variables-colors": "^3.1.12",
+    "@superflycss/variables-fonts": "^3.0.0",
+    "@superflycss/variables-layout": "^2.0.0",
+    "npm-check-updates": "^2.15.0"
+  },
+  "dependencies": {
+    "@superflycss/variables-colors": "^3.1.12",
+    "@superflycss/variables-fonts": "^3.0.0",
+    "@superflycss/variables-layout": "^2.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+@import "@superflycss/variables-fonts";
+@import "@superflycss/variables-layout";
+@import "@superflycss/utilities-format";
+
+:root {
+  --GherkinFeature-background-color: inherit;
+  --GherkinFeature-text-color: inherit;
+  --GherkinFeature-background-color: inherit;
+  --GherkinFeature-text-color: inherit;
+  --GherkinFeature-margin-bottom: 0.5rem;
+}
+
+.GherkinFeature {
+  @apply (--u-font-size-700);
+  @apply (--u-font-weight-500);
+  @apply (--u-border-bottom-style-solid);
+  color: var(--GherkinFeature-text-color);
+  background-color: var(--GherkinFeature-background-color);
+  margin-bottom: var(--GherkinFeature-margin-bottom);
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.GherkinFeature::before {
+  content: "Feature  ";
+}
+
+:root {
+  --GherkinFeatureTitle-background-color: inherit;
+  --GherkinFeatureTitle-text-color: inherit;
+  --GherkinFeatureTitle-background-color: inherit;
+  --GherkinFeatureTitle-text-color: #6b89a6;
+  --GherkinFeatureTitle-margin-bottom: 1.3rem;
+}
+
+.GherkinFeatureTitle {
+  @apply (--u-font-size-400);
+  @apply (--u-font-weight-300);
+  color: var(--GherkinFeatureTitle-text-color);
+  background-color: var(--GherkinFeatureTitle-background-color);
+  margin-bottom: var(--GherkinFeatureTitle-margin-bottom);
+}
+
+:root {
+  --GherkinFeatureDescription-background-color: inherit;
+  --GherkinFeatureDescription-text-color: inherit;
+  --GherkinFeatureDescription-background-color: inherit;
+  --GherkinFeatureDescription-text-color: #1c162f;
+  --GherkinFeatureDescription-margin-bottom: 4rem;
+}
+
+.GherkinFeatureDescription {
+  @apply (--u-font-size-400);
+  @apply (--u-font-weight-500);
+  color: var(--GherkinFeatureDescription-text-color);
+  background-color: var(--GherkinFeatureDescription-background-color);
+  margin-bottom: var(--GherkinFeatureDescription-margin-bottom);
+  letter-spacing: 0.7px;
+  line-height: 2.5rem;
+}
